@@ -5,6 +5,24 @@ body #app {
   width: 100%;
 }
 
+.links {
+  /* border: 1px solid red; */
+  list-style-type: none;
+  display: flex;
+}
+
+.links li {
+  padding: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+  cursor: pointer;
+}
+
 ul {
   padding: 0;
 }
@@ -17,7 +35,7 @@ li {
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 .flex-center {

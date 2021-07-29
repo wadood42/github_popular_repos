@@ -1,0 +1,110 @@
+.instructions-container {
+  border: 1px solid red;
+}
+
+.instructions-container ol {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.instructions-container li {
+  /* border: 1px solid green; */
+  padding: 10px;
+  text-align: center;
+}
+.header-sm {
+  /* background: red; */
+  text-align: center;
+  padding: 10px;
+}
+
+/* PLAYER INPUT STYLES  */
+
+.column {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+
+  /* border: 1px solid green; */
+  flex: 1;
+}
+.player label {
+  font-size: 20px;
+  margin: 5px 0;
+  font-weight: 300;
+}
+
+.player-inputs {
+  display: flex;
+  /* border: 1px solid green; */
+  margin: 10px;
+}
+.player-inputs input {
+  padding: 10px;
+  font-size: 16px;
+  flex: 2;
+  border-radius: 3px;
+  border: none;
+}
+
+.player-inputs .input-light {
+  background: rgb(238, 228, 228);
+}
+
+.player-inputs button {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  max-width: 200px;
+}
+
+.btn-dark {
+  color: white;
+  background: rgb(24, 19, 19);
+}
+
+.btn-dark:disabled {
+  color: rgb(194, 191, 191);
+  background: white;
+}
+
+.players {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.row input {
+  outline: none;
+}
+
+.players h1 {
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 10px;
+  color: rgb(179, 179, 179);
+}
+
+.player label {
+  /* background: red; */
+  text-align: center;
+}
